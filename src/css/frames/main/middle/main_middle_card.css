@@ -1,0 +1,92 @@
+/* --- Main Middle Card --- */
+
+:root {
+  --color-mark: #e4004c;
+}
+
+.info {
+  background: #fff;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.info-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.4rem 0.1rem;
+}
+
+.info-profile .profile {
+  padding: 0;
+}
+
+.info-profile i {
+  cursor: pointer;
+}
+
+.info-picture img {
+  border-radius: 0.5rem;
+}
+
+.info-control {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+  font-size: 1.5rem;
+}
+
+.info-control .main-control {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.info-control .main-control i::before {
+  color: var(--color-primary);
+}
+
+.info-control .main-control i:hover::before {
+  color: var(--color-mark);
+}
+
+.info-control > i:before {
+  color: var(--color-primary);
+}
+
+.info-control > i:hover::before {
+  color: var(--color-mark);
+}
+
+.info-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: small;
+}
+
+.info-comment .like-info{
+  padding-left: 0.5rem;
+}
+.info-comment .profile-photo{
+  cursor: pointer;
+}
+
+.view-btn {
+  color: var(--color-gray);
+}
+
+.view-btn:hover {
+  color: var(--color-primary);
+}
+
+.view-btn .view-comment:hover {
+  color: var(--color-primary);
+}
+
+
+.info-comment .comment {
+  display: flex;
+  align-items: center;
+}
