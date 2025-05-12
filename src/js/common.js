@@ -1,13 +1,14 @@
 import data from "../../data/db.json";
-import { create_post } from "./components/mainLeft/createPost";
-import { Profile } from "./components/mainLeft/profile";
-import { Sidebar } from "./components/mainLeft/sidebar";
-import { Request } from "./components/mainRight/request";
-import { Highline } from "./components/mainMiddle/highline";
-import { create_post as create_post_middle } from "@/js/components/mainMiddle/createPost";
+import { create_post } from "@/js/components/mainLeft/createPost";
+import { Profile } from "@/js/components/mainLeft/profile";
+import { Sidebar } from "@/js/components/mainLeft/sidebar";
+import { Request } from "@/js/components/mainRight/request";
+import { Highline } from "@/js/components/mainMiddle/highline";
+import { create_post as create_post_middle } from "@/js/components/mainMiddle/createpost";
 import { cardList } from "@/js/components/mainMiddle/cardList";
-import { create_message_primary } from "./components/mainRight/message,js";
-import { FriendList } from "./components/mainRight/friendList";
+import { create_message_primary } from "@/js/components/mainRight/message.js"; // Fixed this line
+import { FriendList } from "@/js/components/mainRight/friendList";
+
 /* --- Nav Bar ---*/
 export const navbar = document.querySelector("nav");
 export const navbar_container = navbar.querySelector(".container");
